@@ -1,0 +1,119 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: #000033;
+    background-size: cover;
+    background-attachment: fixed;
+    color: #ffffff;;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+img{
+    width: 250px;
+}
+header {
+    padding: 25px 100px 50px 100px;
+    
+}
+footer{
+    padding: 15px;
+
+}
+header .namePride h1{
+    margin-bottom: 25px;
+}
+header .namePride{
+    text-align: center;
+    background-color: #555222;
+    padding: 35px;
+    border-radius: 25px;
+}
+.imgPride {
+    width: 600px;
+    height: 450px;
+    border-radius: 50%;
+    margin: 10px;
+}
+.row {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, auto));
+    text-align: center;
+    z-index: 1;
+    grid-gap: 2rem;
+    margin: 15px;
+}
+.col{
+    padding: 20px;
+    border-radius: 15px;
+    background-color: #555222;
+}
+.col h1{
+    margin-bottom: 15px;
+}
+.col img{
+    border-radius: 15px;
+}
+.caption{
+    text-align: center;
+    padding: 10px;
+    margin: 25px, auto, 25px;
+    background-color: #555222;
+    border-radius: 25px;
+}
+.caption h2{
+    margin: 10px;
+}
+.caption p{
+    margin: 10px;
+}
+
+footer h1{
+    text-align: center;
+}
+button{
+    margin: 10px;
+    height: 100px;
+    padding: 15px;
+    border: 0;
+    border-radius: 15px-;
+}
+button.sangatBagus {
+    background-color: #03ff18;
+    color: #ffffff;
+}
+button.cukupBagus{
+    background-color: #f2ff00;
+    color: #ffffff;
+}
+
+button.kurangBagus{
+    background-color: #ff0000;
+    color: #ffffff;
+}
+
+@media screen and (max-width: 768px) {
+    .imgPride{
+        width: 300px;
+        height: 200px;
+    }
+    .row {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(250px, auto));
+        margin: 25px 5px;25px 5px
+    }
+    img{
+        width: 200px;
+    }
+    header {
+        padding: 25px 25px 50px 25px;
+    }
+}
+
+@media screen and (max-width: 375px) {
+    .imgPride{
+        width: 200px;
+        height: 150px;
+    }
+
+}
